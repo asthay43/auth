@@ -1,0 +1,32 @@
+{
+  "name": "microservices",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "handlebars": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.0",
+    "nodemailer": "^6.2.1",
+    "path": "^0.12.7",
+    "quickthumb": "0.0.12",
+    "swagger-express-mw": "^0.7.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=development mocha",
+    "test:watch": "npm run test -- --watch"
+  }
+}
